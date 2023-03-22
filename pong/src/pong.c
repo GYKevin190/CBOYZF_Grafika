@@ -49,7 +49,7 @@ void bounce_ball(Pong *pong)
     if (pong->ball.x - pong->ball.radius < 50)
     {
         //  printf("%lf \n", ((pong->left_pad.y + 60) - pong->ball.y));
-        if (((pong->left_pad.y + 60) - pong->ball.y) < 60)
+        if (((pong->left_pad.y + 60) - pong->ball.y) < 60 && ((pong->left_pad.y + 60) - pong->ball.y) > -60)
         {
             pong->ball.x = pong->ball.radius + 50;
             pong->ball.speed_x*= -1;
@@ -68,7 +68,7 @@ void bounce_ball(Pong *pong)
     if (pong->ball.x + pong->ball.radius > pong->width - 50)
     {
 
-        if (((pong->right_pad.y + 60) - pong->ball.y) < 60)
+        if (((pong->right_pad.y + 60) - pong->ball.y) < 60 && ((pong->right_pad.y + 60) - pong->ball.y) > -60)
         {
             pong->ball.x = pong->width - pong->ball.radius - 50;
             pong->ball.speed_x*= -1;
