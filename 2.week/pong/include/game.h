@@ -1,57 +1,47 @@
 #ifndef GAME_H
 #define GAME_H
 
-#include "pong.h"
-
-#include <SDL2/SDL.h>
+#include "ball.h"
+#include "pad.h"
 
 /**
  * Game state representation
  */
 typedef struct Game
 {
-    SDL_Window* window;
-    SDL_GLContext gl_context;
-    bool is_running;
-    double last_update_time;
+    Ball ball;
+    Pad left_pad;
+    Pad right_pad;
     int width;
     int height;
-    Pong pong;
+    int leftPoints;
+    int rightPoints;
 } Game;
 
 /**
- * Init the game.
+ * Resize the game and update positions.
  */
-void init_game(Game* game, int width, int height);
+void resize_game(Game* game, int width, int height);
 
 /**
- * Free the allocated resources.
+ * Restart the game.
  */
-void destroy_game(Game* game);
-
-/**
- * Handle the game events.
- */
-void handle_game_events(Game* game);
+void restart_game(Game* game);
 
 /**
  * Update the state of the game.
+ * @param time elapsed time in seconds
  */
-void update_game(Game* game);
+void update_game(Game* game, double time);
 
 /**
- * Render the game.
+ * Move the left pad to the given position.
  */
-void render_game(Game* game);
+void move_left_pad(Game* game, float position);
 
 /**
- * Initialize the SDL context.
+ * Move the right pad to the given position.
  */
-bool init_sdl(Game* game);
-
-/**
- * Initialize the OpenGL.
- */
-void init_opengl(Game* game);
+void move_right_pad(Game* game, float position);
 
 #endif /* GAME_H */

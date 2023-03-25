@@ -1,19 +1,43 @@
-#include "game.h"
+#include "callbacks.h"
+#include "init.h"
+
+#include <GL/glut.h>
+
+#include <stdio.h>
+
+/**
+ * Set the callbacks for GLUT.
+ */
+void set_callbacks()
+{
+    glutDisplayFunc(display);
+    glutReshapeFunc(reshape);
+    glutPassiveMotionFunc(motion);
+    glutKeyboardFunc(keyboard);
+	glutMouseFunc(mouseClick);
+    glutIdleFunc(idle);
+}
 
 /**
  * Main function
  */
 int main(int argc, char* argv[])
 {
-    Game game;
+    int window;
+	
+    glutInit(&argc, argv);
 
-    init_game(&game, 800, 600);
-    while (game.is_running) {
-        handle_game_events(&game);
-        update_game(&game);
-        render_game(&game);
-    }
-    destroy_game(&game);
+    glutInitWindowSize(640, 480);     
+    glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE | GLUT_DEPTH);
+
+    window = glutCreateWindow("Simplified Pong Game");
+    glutSetWindow(window);
+
+    init_opengl();
+    set_callbacks();
+
+    glutMainLoop();
 
     return 0;
 }
+
