@@ -9,4 +9,4 @@ A játékos egy fiatal jedi, aki éppen az erő használatát próbálja elsajá
 -A játék 5 gól berúgásával ér véget  
 -Az F1-el jelenik meg felhasználói kézikönyv amely a játék irányításáról tartalmaz információkat(Használati útmutató)  
 -A fényerőt a +/- gombokkal lehet állítani (Fények)  
-- F1-el megjelenő menü ahol a köd erősségét lehet állítani (Felhasználói felület)  
+-F1-el megjelenő menü ahol a köd erősségét lehet állítani (Felhasználói felület)  
