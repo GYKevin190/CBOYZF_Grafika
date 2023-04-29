@@ -1,6 +1,6 @@
 Beadandó feladat:  
 Jedi foci játék:
-A játékos egy fiatal jedi, aki éppen az erő használatát próbálja elsajátítani, a feladata hogy a labdát pusztán az erővel eljutasson a kapuba 5 alkalommal, megadott időn belül.  
+A játékos egy fiatal jedi, aki éppen az erő használatát próbálja elsajátítani, a feladata hogy a labdát pusztán az erővel eljutassa a kapuba 5 alkalommal, megadott időn belül.  
 -Játék mechanikák:  
 -A játéktér egy körbekerített focipálya amely mellet fák nőnek (Textúrák),amelyről nem lehet kimenni (ütközés vizsgálat) , be lehet járni(Kamerakezelés)  
 -A pályát köd fedi(fog)  
