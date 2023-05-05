@@ -16,7 +16,7 @@ A játékos egy fiatal Jedi, aki éppen az erő használatát próbálja elsajá
 6. A hátralévő időt a képernyő bal felső sarkában fogja jelezni a program
 
 **Irányítás**
-1. Az F1-el jelenik meg felhasználói kézikönyv amely a játék irányításáról tartalmaz információkat(Használati útmutató)
-2. A fényerőt a +/- gombokkal lehet állítani (Fények)
-3. F1-el megjelenő menü ahol a köd erősségét lehet állítani (Felhasználói felület)
-4. A labdát a nyilakkal lehet irányítani (mozgatás)
+8. Az F1-el jelenik meg felhasználói kézikönyv amely a játék irányításáról tartalmaz információkat(Használati útmutató)
+9. A fényerőt a +/- gombokkal lehet állítani (Fények)
+10. F1-el megjelenő menü ahol a köd erősségét lehet állítani (Felhasználói felület)
+11. A labdát a nyilakkal lehet irányítani (mozgatás)
