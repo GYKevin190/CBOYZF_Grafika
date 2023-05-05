@@ -5,7 +5,7 @@
 
 A játékos egy fiatal Jedi, aki éppen az erő használatát próbálja elsajátítani, a feladata hogy el labdát pusztán az erővel eljuttasson a kapuba 5 alkalommal, megadott időn belül.
 
-**-Játék mechanikák:**
+**Játék mechanikák:**
 
 1. A játéktér egy körbekerített focipálya amely mellet fák nőnek (Textúrák),amelyről nem lehet kimenni (ütközés vizsgálat) , be lehet járni(Kamerakezelés)
 
