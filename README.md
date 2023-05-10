@@ -14,9 +14,11 @@ A játékos egy fiatal Jedi, aki éppen az erő használatát próbálja elsajá
 4.  A megszerzett gólok száma egy táblán jelenik meg a pályán
 5. A játék 5 gól berúgásával ér véget
 6. A hátralévő időt a képernyő bal felső sarkában fogja jelezni a program
+7. Ha a játékos eléri az 5 gólt vagy lejár az idő, a játék a "Nyertél" illetve "Vesztettél" feliratokat jeleníti meg, ezután a felirat után a SPACE gomb megnyomásával tud a játékos új játékot kezdeni 
 
 **Irányítás**
 1. Az F1-el jelenik meg felhasználói kézikönyv amely a játék irányításáról tartalmaz információkat(Használati útmutató)
 2. A fényerőt a +/- gombokkal lehet állítani (Fények)
 3. F1-el megjelenő menü ahol a köd erősségét lehet állítani (Felhasználói felület)
 4. A labdát a nyilakkal lehet irányítani (mozgatás)
+5. A SPACE gomb megnyomásával tud a játékos új játékot kezdeni 
